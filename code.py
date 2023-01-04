@@ -3,4 +3,8 @@ name = input("Enter your name")
 if name =="Ayushi":
     print("Fav Person")
 else:
-    print("Friends")
+    dogg = input("do you like dog")
+    if dogg == "yes":
+        print("Friends")
+    else:
+        print("Not good let's love dogs")
